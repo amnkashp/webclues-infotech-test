@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
-  res.send(`Hello Webclues Infotech... This is just a demo project for Second Round and applicaiton is running on Port ${port}`);
+  res.send(`Hello Webclues Infotech... This is just a demo project for Second Round of Interview and Applicaiton is running on Port ${port} as per the requirement`);
 });
 
 
